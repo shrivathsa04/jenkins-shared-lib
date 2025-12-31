@@ -1,3 +1,3 @@
-def call(Map config) {
-    echo "Building image ${config.imageName}:${config.tag}"
+def call(String imageName, String tag) {
+    echo "Building image ${imageName}:${tag}"
 }
